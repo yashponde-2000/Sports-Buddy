@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Buddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sports Buddy</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="upload-section">
+            <h2>Upload Sports Details</h2>
+            <!-- Form for uploading sports details -->
+            <form id="upload-form">
+                <div class="form-group">
+                    <label for="category-select">Sports:</label>
+                        <select id="sports">
+                            <option value="swimming ">swimming </option>
+                            <option value="cycling">cycling</option>
+                            <option value="tennis">tennis</option>
+                            <option value="boxing">boxing</option>
+                            <option value="basketball">basketball</option>
+                            <option value="football">football</option>
+                            <option value="volleyball">volleyball</option>
+                            <option value="baseball">baseball</option>
+                            <option value="table tennis">table tennis</option>
+                            <option value="gymnastics">gymnastics</option>
+                            <option value="archery ">archery </option>
+                            <option value="badminton">badminton</option>
+                            <option value="cricket">cricket</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+               
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+
+        <section class="description-section">
+            <h2>About Sports Buddy</h2>
+            <p>The user of the Sports Buddy application will upload details on various sports information, locations, date, and times that are held near the user's location. Sports Buddy is the world's largest sports matching site, with millions of pairings. Sports Buddy, which is powered by cutting-edge Android technology, allows you to grow your network, make new acquaintances, meet locals while traveling, and locate your buddy in over N sports. Creating an app that helps users to form genuine, meaningful interactions outside of their social circles. Connecting on Sports Buddy is simple and enjoyable; simply choose the sports you're interested in, establish your ability level, and start matching.</p>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2024 Sports Buddy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
